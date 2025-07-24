@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from 'typewriter-effect'
 import "./Description.css";
 
 function Description() {
@@ -6,7 +7,14 @@ function Description() {
     <section className="description-container" id="about">
       <div id="description-left">
         <h2>
-          <span className="green-letter">W</span>hy our Payment Gateway?
+          <span className="green-letter">W</span>
+          <Typewriter
+          options={{
+            strings: ['hy our Payment Gateway?'],
+            autoStart: true,
+            loop: true,
+          }}
+          />
         </h2>
         <p>
          We believe that the best way to create successful

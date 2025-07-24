@@ -1,18 +1,20 @@
 .partner-container {
-    margin-top: -120px;
+    height: 85vh;
+    margin-bottom: -100px;
 }
 .partner-bg{
     background-image: url("https://myxpresspay.com:8095/partnerBg.svg"); 
-background-size: content;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  position: relative;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+    background-size: content;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .partner-text {
@@ -20,12 +22,15 @@ background-size: content;
     align-items: center;
     gap: 20px;
     padding: 20px 40px;
-    border-radius: 12px;
     color: white;
 }
 
+.partner-p {
+    margin-left: -100px;
+}
+
 .partner-text p {
-    font-size: 100px;
+    font-size: 80px;
     text-align: left;
     font-weight: 600;
 }
@@ -33,7 +38,7 @@ background-size: content;
 .partner-text button {
     border-radius: 8px;
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 14px 24px;
     background-color: green;
     border: none;
     color: white;

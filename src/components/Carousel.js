@@ -1,4 +1,5 @@
 import React, {useRef, useEffect} from 'react';
+import Marquee from 'react-fast-marquee';
 import './Carousel.css';
 
 
@@ -8,8 +9,8 @@ function Carousel() {
     useEffect(() => {
         const scrollInterval = setInterval(() => {
             if (scrollRef.current) {
-                scrollRef.current.scrollLeft += 1;
-
+                scrollRef.current.scrollLeft += 2;
+                        console.log('scrolling...', scrollRef.current.scrollLeft);
                 if(
                     scrollRef.current.scrollLeft + scrollRef.current.clientWidth >=
                     scrollRef.current.scrollWidth
@@ -25,9 +26,9 @@ function Carousel() {
     return(
         <section className='carousel-container'>
             <p id="carousel-txt">Trusted By</p>
-            <div id='img-container'>
+            <marquee gradient={false} speed={50} id='img-container'>
                 <img 
-                src="https://myxpresspay.com:8095/oyo.png"
+                 src="https://myxpresspay.com:8095/oyo.png"
                 alt='Oyo'/>
                 <img 
                 src='https://myxpresspay.com:8095/keystone.svg'
@@ -57,7 +58,7 @@ function Carousel() {
                 src='https://myxpresspay.com:8095/nibss.jpg'
                 alt='Nibss'
                 />
-            </div>
+            </marquee>
             </section>
     )
 }

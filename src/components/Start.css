@@ -4,6 +4,7 @@
     align-items: center;
     padding: 80px 0;
     background-color: #000;
+    /* margin-right: -100px; */
 }
 
 .start-square {
@@ -12,18 +13,19 @@
     align-items: center;
     justify-content: space-between;
     padding: 60px 80px;
-    width: 1000px;
-    /* height: 100px; */
+    width: 1100px;
+    height: 350px;
     border-radius: 40px;
     position: relative;
     color: white;
 }
 
 .start-text {
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 600;
-    max-width: 400px;
+    max-width: 450px;
     line-height: 1.4;
+
 }
 
 .start-square button {
@@ -36,6 +38,7 @@
     border-radius: 7px;
     transition: 0.3s ease;
     cursor: pointer;
+    box-shadow: #000;
 }
 
 .start-square button:hover {
@@ -45,61 +48,66 @@
 }
 
 .start-shapes {
-    width: 210px;
-    height: 240px;
+    width: 250px;
+    height: 270px;
     background-color: #e4ff1a;
-    border-radius: 65%;
+    border-radius: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     position: relative;
 }
+.start-shapes svg {
+    color: rgb(52, 97,255);
+    font-size: 100px;
 
+}
 .start-thunder {
-    position: absolute;
+    /* position: absolute;
     width: 0;
-    height: 0;
-    left: 60px;
+    height: 0; */
+    
+    /* left: 60px;
     top: 130px;
     border-left: 14px solid transparent;
     border-right: 14px solid transparent;
     border-bottom: 25px solid #fff;
-    transform: rotate(-30deg);
+    transform: rotate(-30deg); */
 }
 
 .start-thunder::after {
-    content: '';
+    /* content: '';
     position: absolute;
     top: 20px;
     left: -14px;
     border-left: 14px solid transparent;
     border-right: 14px solid transparent;
     border-top: 25px solid #fff;
-    transform: rotate(30deg);
+    transform: rotate(30deg); */
 }
 
 .start-arrow {
-    position: absolute;
-    width: 50px;
+    /* position: absolute; */
+    /* width: 50px;
     height: 50px;
     right: 60px;
     bottom: 50px;
-    transform: rotate(-45deg);
+    transform: rotate(-45deg); */
 }
 
 .start-arrow::before{ 
-    content: '';
+    /* content: '';
     position: absolute;
     width: 35px;
     height: 4px;
     background-color: white;
     top: 50%;
-    left: 0;
+    left: 0; */
 }
 
 .start-arrow::after {
-    content: '';
+    /* content: '';
     position: absolute;
     width: 15px;
     height: 15px;
@@ -107,5 +115,5 @@
     border-right: 4px solid white;
     top: 2px;
     right:  -4px;
-    transform: rotate(45deg);
+    transform: rotate(45deg); */
 }

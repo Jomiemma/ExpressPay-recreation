@@ -12,4 +12,5 @@ html {
     font-family: sans-serif;
     color: white;
     overflow-x: hidden;
+    overflow-y: auto;
   }

@@ -1,11 +1,19 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 import './Invoice.css';
 
 function Invoice() {
     return(
         <section className="invoice-container" id="invoices" >               
          <div className='invoice-header'>
-            <h2><span className='green-letter'>U</span>se Payment Gateway with <br /> other products.</h2>
+            <h2><span className='green-letter'>U</span>
+            <Typewriter 
+            options={{
+                strings: ['se Payment Gateway with'],
+                autoStart: true,
+                loop: true,
+            }}/>
+            <br /> other products.</h2>
                 </div>
 
             <div className="invoice-content">

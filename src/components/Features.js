@@ -1,4 +1,5 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 import './Features.css';
 
 function Features() {
@@ -6,7 +7,13 @@ function Features() {
         <section className="features-container">
             <div className='feature-headers'>
                 <h2>
-                    <span className='green-letter'>W</span>hat does our Platform offer
+                    <span className='green-letter'>W</span>
+                    <Typewriter options={{
+                        strings: ['hat does our Platform offer'],
+                        autoStart: true,
+                        loop: true
+                    }} 
+                    />
                 </h2>
                 <p>Features Tailored to Your Needs</p>
             </div>
