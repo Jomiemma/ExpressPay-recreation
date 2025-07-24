@@ -1,0 +1,106 @@
+.pricing-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.pricing-rect {
+    flex: 1;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#pricing-rect-colored{
+    background-color: green;
+    color: white;
+    padding: 30px;
+    flex: 1;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    background-color: green;
+}
+
+#pricing-rect-colored p:nth-child(1){
+    margin-bottom: -10px;
+    font-size: 22px;
+}
+
+#pricing-rect-colored p:nth-child(2){
+    margin-bottom: -5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#pricing-rect-colored p:nth-child(3){
+    margin-bottom: -10px;
+    font-size: 14px;
+}
+
+.pricing-arrow {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+#pricing-rect-colored img {
+     margin-bottom: -30px;
+}
+
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.img-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -20px;
+}
+
+.img-div img {
+    width: 32px;
+    height: auto;
+}
+
+.img-div p {
+    color: grey;
+}
+
+.pricing-dotted {
+    border-top: 1px dashed white;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.pricing-rect h3 {
+    font-size: 32px;
+}
+
+.pricing-rect h2 {
+    font-size: 32px;
+}
+
+.pricing-rect p {
+    font-size: 18px;
+}
+
+.pricing-rect button {
+    padding: 18px 102px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 100px;
+    color: white;
+    background-color: green;
+    transition: all 0.3s ease;
+}

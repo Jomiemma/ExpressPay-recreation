@@ -1,0 +1,68 @@
+.client-container {
+  color: white;
+}
+
+.client-header {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+
+.client-content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.client-square {
+  flex: 1;
+  min-width: 280px;
+  max-width: 320px;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+  background-color: #006f011a;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#client-square-colored {
+  background-color: #006f01;
+  color: white;
+}
+
+.client-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.client-profile img {
+  /* width: 66px; */
+  height: 48px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+}
+
+.client-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.client-role {
+  font-size: 16px;
+  margin: 0;
+}
+
+.client-text {
+  font-size: 12.8px;
+  line-height: 1.5;
+  margin-top: 12px;
+}

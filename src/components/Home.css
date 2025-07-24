@@ -1,0 +1,75 @@
+.home-content {
+    padding-top: 100px; /* accounts for navbar height */
+    margin: 0;
+    color: white;
+    min-height: 100vh; /* ensures enough space to view content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  
+  .home-content h1 {
+    max-width: 600px;
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  .home-content h3{
+    font-size: 15px;
+    color: grey;
+  }
+  .home-content span {
+    color: orangered;
+  }
+
+  #button-group {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.home-content button{
+ padding: 10px 24px;
+   border: none;
+   color: white;
+   font-weight: 600;
+   cursor: pointer;
+   border-radius: 6px;
+   font-size: 14px;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+}
+ 
+ #home-signup{
+   background-color: green;
+  }
+
+  #home-signup:hover{
+   transform: scale(1.05);
+  }
+
+ #home-view {
+  background-color: black;
+  border: 1px solid green;
+  color: green;
+ }
+
+ #home-view:hover{
+  transform: scale(1.05);
+ }
+
+ .fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+ }
+
+ .fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+ }
+
+ /* #home-img {
+  width: 80%;
+  height: 50%;
+ } */

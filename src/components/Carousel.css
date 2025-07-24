@@ -1,0 +1,30 @@
+#carousel-txt{
+    margin-top: 50px;
+    font-size: 19.2px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#img-container{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    margin: 20px auto 100px auto;
+    padding: 10px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    white-space: nowrap;
+}
+
+#img-container::-webkit-scrollbar{
+    display: none;
+}
+
+#img-container img{
+    width: auto;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 0px;
+    flex-shrink: 0;
+}

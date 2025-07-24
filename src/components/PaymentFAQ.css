@@ -1,0 +1,83 @@
+.payment-container {
+  padding: 60px 40px;
+}
+
+.payment-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.payment-right {
+  flex: 1;
+  min-width: 280px; 
+  max-width: 600px;
+}
+
+.payment-right h2{ 
+  font-size: 45px;
+}
+
+.payment-right p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.orange-letter {
+  color: orangered;
+}
+
+.payment-contact {
+  text-decoration: underline;
+  cursor: pointer;
+  color: green;
+  display: inline-block;
+  /* margin-top: 10px; */
+}
+
+.payment-contact:hover {
+  color: orangered;
+}
+
+.payment-left {
+  flex: 1;
+  min-width: 280px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 28px;
+}
+
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dropdown-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.dropdown-content {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 4px;
+  color: #555;
+}
+
+.merchant-portal {
+  color: green;
+  
+}

@@ -1,0 +1,44 @@
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 32px;
+}
+
+.checkout-square {
+      width: 100%;
+    max-width: 7000px;
+    background-color: #006F011A;
+    border-radius: 12px;
+    padding: 40px;
+    color: #006F01;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.checkout-content {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: nowrap;
+}
+
+.checkout-text {
+    max-width: 600px;
+}
+
+.checkout-text p{
+    font-weight: 500;
+    font-size: 19px;
+} 
+
+.checkout-text h2 {
+    font-size: 29.2px;
+}
+
+.checkout-text ul {
+    margin-left: -23px;
+    font-size: 16px;
+}

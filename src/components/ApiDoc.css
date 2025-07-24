@@ -1,0 +1,58 @@
+.apiDoc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 32px;
+}
+.apiDoc-square{
+    width: 100%;
+    max-width: 7000px;
+    background-color: #006F011A;
+    border-radius: 12px;
+    padding: 40px;
+    color: #006F01;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+.apiDoc-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: nowrap;
+}
+.apiDoc-texts {
+    max-width: 600px;
+}
+
+.apiDoc-texts p {
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+.apiDoc-texts h2{
+    font-size: 27.2px;
+}
+
+.apiDoc-texts ul {
+    margin-left: -23px;
+}
+
+.apiDoc-texts button{
+  padding: 17px 21px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #006F01;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 350px;
+}
+
+.apiDoc-texts button:hover {
+    background-color: #006F011A;
+    border: 1px solid green;
+}
