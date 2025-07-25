@@ -9,7 +9,6 @@
 #img-container{
     display: flex;
     gap: 20px;
-    /* justify-content: space-between; */
     overflow-x: scroll;
     margin: 20px auto 100px auto;
     padding: 10px;
@@ -25,7 +24,6 @@
 #img-container img{
     width: auto;
     height: 75px;
-    /* margin-left: 100px; */
     margin-right: 30px;
     object-fit: cover;
     border-radius: 0px;

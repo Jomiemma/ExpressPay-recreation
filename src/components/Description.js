@@ -7,10 +7,10 @@ function Description() {
     <section className="description-container" id="about">
       <div id="description-left">
         <h2>
-          <span className="green-letter">W</span>
+          {/* <span className="green-letter"></span> */}
           <Typewriter
           options={{
-            strings: ['hy our Payment Gateway?'],
+            strings: ['Why our Payment Gateway?'],
             autoStart: true,
             loop: true,
           }}

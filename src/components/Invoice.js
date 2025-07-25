@@ -6,10 +6,11 @@ function Invoice() {
     return(
         <section className="invoice-container" id="invoices" >               
          <div className='invoice-header'>
-            <h2><span className='green-letter'>U</span>
+            <h2>
+                {/* <span className='green-letter'>U</span> */}
             <Typewriter 
             options={{
-                strings: ['se Payment Gateway with'],
+                strings: ['Use Payment Gateway with'],
                 autoStart: true,
                 loop: true,
             }}/>

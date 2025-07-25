@@ -7,9 +7,9 @@ function Features() {
         <section className="features-container">
             <div className='feature-headers'>
                 <h2>
-                    <span className='green-letter'>W</span>
+                    {/* <span className='green-letter'></span> */}
                     <Typewriter options={{
-                        strings: ['hat does our Platform offer'],
+                        strings: ['What does our Platform offer'],
                         autoStart: true,
                         loop: true
                     }} 

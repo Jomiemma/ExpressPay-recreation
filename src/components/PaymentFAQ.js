@@ -14,7 +14,6 @@ function Payment() {
                         As a leading digital marketing agency, we are dedicated to providing comprehensive educational resources and answering frequently asked questions to help our clients.
                     </p>
                    <a className="payment-contact" href="#contact-us" >Contact Us</a>
-                    {/* <a className='payment-contact' ontact Us</a>/ */}
                 </div>
 
                 <div className='payment-left'>

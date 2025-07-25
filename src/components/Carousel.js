@@ -1,27 +1,9 @@
-import React, {useRef, useEffect} from 'react';
+import React from 'react';
 import Marquee from 'react-fast-marquee';
 import './Carousel.css';
 
 
 function Carousel() {
-    const scrollRef = useRef(null);
-
-    useEffect(() => {
-        const scrollInterval = setInterval(() => {
-            if (scrollRef.current) {
-                scrollRef.current.scrollLeft += 2;
-                        console.log('scrolling...', scrollRef.current.scrollLeft);
-                if(
-                    scrollRef.current.scrollLeft + scrollRef.current.clientWidth >=
-                    scrollRef.current.scrollWidth
-                ) {
-                    scrollRef.current.scrollLeft = 0;
-                }
-            }
-        }, 20);
-        
-        return () => clearInterval(scrollInterval);
-    }, []);
 
     return(
         <section className='carousel-container'>

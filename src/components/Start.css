@@ -4,7 +4,6 @@
     align-items: center;
     padding: 80px 0;
     background-color: #000;
-    /* margin-right: -100px; */
 }
 
 .start-square {
@@ -58,62 +57,9 @@
     gap: 20px;
     position: relative;
 }
+
 .start-shapes svg {
     color: rgb(52, 97,255);
     font-size: 100px;
 
-}
-.start-thunder {
-    /* position: absolute;
-    width: 0;
-    height: 0; */
-    
-    /* left: 60px;
-    top: 130px;
-    border-left: 14px solid transparent;
-    border-right: 14px solid transparent;
-    border-bottom: 25px solid #fff;
-    transform: rotate(-30deg); */
-}
-
-.start-thunder::after {
-    /* content: '';
-    position: absolute;
-    top: 20px;
-    left: -14px;
-    border-left: 14px solid transparent;
-    border-right: 14px solid transparent;
-    border-top: 25px solid #fff;
-    transform: rotate(30deg); */
-}
-
-.start-arrow {
-    /* position: absolute; */
-    /* width: 50px;
-    height: 50px;
-    right: 60px;
-    bottom: 50px;
-    transform: rotate(-45deg); */
-}
-
-.start-arrow::before{ 
-    /* content: '';
-    position: absolute;
-    width: 35px;
-    height: 4px;
-    background-color: white;
-    top: 50%;
-    left: 0; */
-}
-
-.start-arrow::after {
-    /* content: '';
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    border-top: 4px solid white;
-    border-right: 4px solid white;
-    top: 2px;
-    right:  -4px;
-    transform: rotate(45deg); */
 }

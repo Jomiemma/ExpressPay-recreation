@@ -44,10 +44,8 @@
 }
 
 .client-profile img {
-  /* width: 66px; */
   height: 48px;
   object-fit: cover;
-  /* border-radius: 50%; */
 }
 
 .client-name {
