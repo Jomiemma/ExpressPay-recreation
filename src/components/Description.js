@@ -7,14 +7,18 @@ function Description() {
     <section className="description-container" id="about">
       <div id="description-left">
         <h2>
-          {/* <span className="green-letter"></span> */}
+          <div className="green-bg-container">
+          <span className="green-letter">W</span>
+          
           <Typewriter
           options={{
-            strings: ['Why our Payment Gateway?'],
+            strings: ['hy our Payment Gateway?'],
             autoStart: true,
             loop: true,
           }}
           />
+
+          </div>
         </h2>
         <p>
          We believe that the best way to create successful

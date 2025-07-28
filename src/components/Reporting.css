@@ -1,6 +1,7 @@
 .reporting-container {
     display: flex;
     flex-direction: column;
+    margin-top: -70px;
     align-items: center;
     padding: 64px 16px;
 }

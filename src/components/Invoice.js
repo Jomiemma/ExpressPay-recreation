@@ -7,14 +7,16 @@ function Invoice() {
         <section className="invoice-container" id="invoices" >               
          <div className='invoice-header'>
             <h2>
-                {/* <span className='green-letter'>U</span> */}
-            <Typewriter 
+                <div className='green-bg-container'>
+                <span className='green-letter'>U</span>
+            <Typewriter
             options={{
-                strings: ['Use Payment Gateway with'],
+                strings: ['se Payment Gateway with other products.'],
                 autoStart: true,
                 loop: true,
             }}/>
-            <br /> other products.</h2>
+            </div>
+            </h2>
                 </div>
 
             <div className="invoice-content">

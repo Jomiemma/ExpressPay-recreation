@@ -1,5 +1,6 @@
 .apiDoc-container {
     display: flex;
+    margin-top: -70px;
     flex-direction: column;
     align-items: center;
     padding: 64px 32px;
