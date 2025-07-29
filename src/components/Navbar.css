@@ -13,9 +13,8 @@
   }
   
   #logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: orangered;
+    width: 110px;
+    margin-bottom: 12px;
   }
   
   nav {
@@ -36,7 +35,7 @@
   }
   
   .nav-item a:hover {
-    text-decoration: underline green;
+    text-decoration: 1.5px underline green;
   }
   
   .dropdown {

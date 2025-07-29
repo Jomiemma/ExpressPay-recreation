@@ -4,7 +4,10 @@ import './Navbar.css';
 function Navbar() {
     return(
     <section id="nav-container">
-        <div id="logo">Xpresspay</div>
+        <img
+        src="https://myxpresspay.com:8096/assets/xpresspay-g68SImip.png"
+        alt="ExpressPay Logo" 
+        id="logo" />
         <nav>
             <div className="nav-item"><a href="#home">Home</a></div>
 
