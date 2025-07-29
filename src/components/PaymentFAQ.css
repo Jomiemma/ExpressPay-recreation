@@ -70,13 +70,18 @@
 
 .dropdown-content {
   margin-top: 10px;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.2;
   padding-left: 4px;
   color: #555;
 }
 
 .merchant-portal {
   color: green;
-  
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.merchant-portal:hover {
+  color: orangered;
 }
