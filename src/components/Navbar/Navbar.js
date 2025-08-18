@@ -44,7 +44,7 @@ function Navbar() {
       </nav>
 
       <div className="right-buttons">
-        <button>Toggle Mode</button>
+        {/* <button>Toggle Mode</button> */}
         <button>Login</button>
         <button>Sign Up</button>
       </div>
