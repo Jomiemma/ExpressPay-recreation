@@ -4,6 +4,7 @@
     margin-top: -70px;
     align-items: center;
     padding: 64px 16px;
+    margin-bottom: -50px;
 }
 
 .reporting-square {
@@ -14,7 +15,8 @@
     padding: 40px;
     color:#FF6D00;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    /* margin: 0 auto; */
 }
 
 .reporting-content {
